@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Klinik Sudirman Ciamis</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="navbar-header">
+		<nav class="navbar">
+			<a href="#" class="nav-logo"><img src="Gallery/Logo.png" width="50" height="50"></a>
+			<ul class="nav-menu">
+				<li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+				<li class="nav-item"><a href="about.html" class="nav-link">Tentang Kami</a></li>
+				<li class="nav-item"><a href="services.html" class="nav-link">Pelayanan</a></li>
+				<li class="nav-item"><a href="gallery.html" class="nav-link">Galeri</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link">Kontak</a></li>
+			</ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</nav>
+	</header>
+	
+	<header class="hero-header">
+		<div class="container">
+			<h1>Klinik Sudirman Ciamis</h1>
+			<p>Peduli, Menjaga, dan Mendampingi Si Kecil</p>
+	  <div class="cta-buttons">
+				<a href="#form" class="btn-primary">Buat Janji Sekarang</a>
+				<a href="https://wa.me/6285811761720" class="btn-secondary" target="_blank">Hubungi via WhatsApp</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="section why">
+		<div class="container">
+			<h2>Mengapa Memilih Kami?</h2>
+			<div class="grid-4">
+				<div class="card">🩺<p>Tenaga Profesional & Ramah</p>
+				</div>
+				<div class="card">🏥<p>Fasilitas Lengkap & Nyaman</p>
+				</div>
+				<div class="card">👩‍🍼<p>Fokus Holistik Ibu & Anak</p>
+				</div>
+				<div class="card">📱<p>Buat Janji Online Cepat</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section services">
+		<div class="container">
+			<h2>Layanan Unggulan</h2>
+			<div class="grid-4">
+				<div class="card">👶<p>Pemeriksaan Kehamilan</p>
+				</div>
+				<div class="card">💉<p>Imunisasi Anak</p>
+				</div>
+				<div class="card">🍼<p>Konsultasi Laktasi</p>
+				</div>
+				<div class="card">📊<p>Cek Tumbuh Kembang</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section testimonial">
+		<div class="container">
+			<h2>Testimoni Pasien</h2>
+			<blockquote>
+				“Dokternya sangat sabar dan penjelasannya mudah dimengerti.”
+				<cite>– Fitri, 29 tahun</cite>
+			</blockquote>
+			<blockquote>
+				“Anak saya tidak takut imunisasi di sini karena suasananya ramah anak.”
+				<cite>– Dinda, 34 tahun</cite>
+			</blockquote>
+		</div>
+	</section>
+	
+	<section class="section form" id="form">
+		<div class="container">
+			<h2>Buat Janji Temu</h2>
+			<form id="appointmentForm">
+				<input type="text" id="name" placeholder="Nama" required>
+				<input type="tel" id="phone" placeholder="No. Telepon" required pattern="08[0-9]{8,11}" title="Masukkan nomor telepon yang valid (mulai dari 08)">
+			<select id="service" required>
+					<option value="">Pilih Layanan</option>
+					<option>Pemeriksaan Kehamilan</option>
+					<option>Imunisasi Anak</option>
+					<option>Konsultasi Laktasi</option>
+					<option>Cek Tumbuh Kembang</option>
+				</select>
+				<input type="date" id="date" required>
+				<button type="submit" id="submitBtn">Kirim</button>
+        <span id="loading" class="hidden">Mengirim...</span>
+			</form>
+			<p id="successMessage" class="hidden">✅ Janji berhasil dikirim! Kami akan menghubungi Anda segera.</p>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="container">
+			<p>📍 Jl. Jendral Sudirman No. 99, Ciamis, Jawa Barat</p>
+			<p>📞 0812-1234-5678 | 🕐 Senin–Sabtu 08.00–20.00</p>
+			<p>© 2025 Klinik Sudirman Ciamis</p>
+		</div>
+	</footer>
+
+ <script src="script2.js"></script>
+  <script src="script.js"></script> 
+	<!-- HTML kamu -->
+
+<!-- Letakkan tombol di SINI, bukan di dalam section atau container -->
+<a href="https://wa.me/6285811761720" class="whatsapp-float" target="_blank">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
+</a>
+
+
+</body>
+</html>
